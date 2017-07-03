@@ -135,39 +135,7 @@ public class RestFragment extends Fragment {
         }*/
     }
 
-    /*public void callrest()
-    {
-        RequestQueue queue = Volley.newRequestQueue(getActivity());
-        String url ="https://api.zappos.com/Search?key=b743e26728e16b81da139182bb2094357c31d331";
-        Log.v(TAG,"***************************Hello********************");
-// Request a string response from the provided URL.
-        StringRequest stringRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
-            TextView textView3 = (TextView) myNewView.findViewById(R.id.textView3);
-            @Override
-            public void onResponse(String response) {
-                try {
-                    JSONObject jsonObject = new JSONObject(response);
-                    JSONArray results = jsonObject.getJSONArray("results");
-                    JSONObject finalResult = results.getJSONObject(0);
-                    String nres = finalResult.getString("brandName");
-                    Log.v(TAG, nres);
-                    textView3.setText(nres);
-
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
-            }
-        }, new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError error) {
-                error.printStackTrace();
-            }
-        });
-
-        queue.add(stringRequest);
-    }*/
-
-    //String url = "http://10.0.2.2:3000/twt";
+    
 
     public void callrestnode() {
         EditText editText = (EditText) getView().findViewById(R.id.editText3);
