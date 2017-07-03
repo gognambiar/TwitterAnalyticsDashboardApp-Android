@@ -16,8 +16,6 @@ The sentiments library available in nodejs is used to derive the sentiments of t
 
 Sample -
 
-header image
+![header image] (https://github.com/gognambiar/Android-Twitter-Analytics-Dashboard/blob/master/androidtwitter1.png)
 
 Once the user clicks the Analyze Button it goes to the next screen with the visualizations -
-
-header image
