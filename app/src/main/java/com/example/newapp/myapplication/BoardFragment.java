@@ -107,7 +107,6 @@ public class BoardFragment extends Fragment {
         try {
 
             JSONObject js = new JSONObject(message);
-            Log.v(TAG, "***********Hello7***********");
             Log.v(TAG, message);
             Log.v(TAG, js.toString());
             GraphView graph = (GraphView) myView.findViewById(R.id.graph);
