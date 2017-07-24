@@ -154,10 +154,7 @@ public class RestFragment extends Fragment {
             //TextView textView3 = (TextView) myNewView.findViewById(R.id.textView3);
             @Override
             public void onResponse(JSONObject response) {
-                Log.v(TAG,"***************************Hello********************");
                 Log.i("onResponse", response.toString());
-                    //String nres = response.getString("text");
-                    //textView3.setText(nres);
                     Intent intent = new Intent(getActivity(), DisplayMessageActivity.class);
                     intent.putExtra(EXTRA_MESSAGE, response.toString());
                     startActivity(intent);
@@ -165,7 +162,6 @@ public class RestFragment extends Fragment {
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                Log.v(TAG,"***************************Hola********************");
                 Log.e("onErrorResponse", error.toString());
             }
         }) {
