@@ -4,6 +4,8 @@ App that givesTwitter Analysis on topic of users choice
 
 Android App which contacts Node JS backend.
 
+The NodeJS file is placed in nodejsfile folder.
+
 User is given an option to enter a topic of their choice. When the Analyze button is clicked the App calls a NodeJS Server REST written in backend to fetch the required details. These details are then put in graphs to give a visual analysis done.
 
 Type of Analysis done -
