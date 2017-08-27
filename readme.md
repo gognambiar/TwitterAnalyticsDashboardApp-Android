@@ -12,7 +12,7 @@ Type of Analysis done -
 
 Sentiment Analysis - The sentiments of the tweets pertaining to the topic are analyzed and plotted in a line graph. The types of sentiments are grouped as follows - a. Very Happy b. Happy c. Neutral d. Sad e. Very Sad
 
-Source Analalysis - The Source of tweets are analyzed and plotted in a pie chart. The Types of sources are grouped into these main categories a. Android b. iPhone c. Web Client d. Google
+Source Analysis - The Source of tweets are analyzed and plotted in a pie chart. The Types of sources are grouped into these main categories a. Android b. iPhone c. Web Client d. Google
 
 The sentiments library available in nodejs is used to derive the sentiments of the user. GraphView and MPAndroidChart libraries have been used to make the visualizations.
 
