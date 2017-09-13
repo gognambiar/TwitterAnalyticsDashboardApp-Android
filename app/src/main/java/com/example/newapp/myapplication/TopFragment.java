@@ -79,13 +79,13 @@ public class TopFragment extends Fragment {
             }
         });
 
-        Button button1 = (Button) getView().findViewById(R.id.button);
+        /*Button button1 = (Button) getView().findViewById(R.id.button);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 sendMessage();
             }
-        });
+        });*/
     }
 
     @Override
@@ -121,12 +121,10 @@ public class TopFragment extends Fragment {
         ArticleFragment.showMessage(message);
     }
 
-    public void sendMessage() {
+    /*public void sendMessage() {
         JSONObject njson = new JSONObject();
         try{
-            njson.put("Olivier", "Giroud");
-            njson.put("Bonjour", "Merci");
-            njson.put("Cristiano", "Ronaldo");
+           
         }
         catch (JSONException e) {
             e.printStackTrace();
@@ -137,7 +135,7 @@ public class TopFragment extends Fragment {
         //intent.putExtra(EXTRA_MESSAGE, message);
         intent.putExtra(EXTRA_MESSAGE, njson.toString());
         startActivity(intent);
-    }
+    }*/
 
     @Override
     public void onDetach() {
